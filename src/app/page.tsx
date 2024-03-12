@@ -17,10 +17,11 @@ import Container from '@/components/Container';
 
 import { loadingCityAtom } from '@/app/atom';
 import { placeAtom } from '@/app/atom';
-import { convertKelvinToFahrenheit } from '@/utilities/convertKelvinToFahrenheit';
-import { metersToMiles } from '@/utilities/metersToMiles';
-import { convertWindSpeed } from '@/utilities/convertWindSpeed';
-import getDayOrNightIcon from '@/utilities/getDayOrNightIcon';
+import { convertKelvinToFahrenheit } from '../../utilities/convertKelvinToFahrenheit';
+
+import { metersToMiles } from '../../utilities/metersToMiles';
+import { convertWindSpeed } from '../../utilities/convertWindSpeed';
+import getDayOrNightIcon from '../../utilities/getDayOrNightIcon';
 
 // Define your interfaces here
 

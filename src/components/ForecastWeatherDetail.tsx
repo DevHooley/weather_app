@@ -2,7 +2,7 @@ import React from 'react';
 import Container from './Container';
 import WeatherIcon from './weatherIcon';
 import WeatherDetails, { WeatherDetailProps } from './WeatherDetails';
-import { convertKelvinToFahrenheit } from '@/utilities/convertKelvinToFahrenheit';
+import { convertKelvinToFahrenheit } from '../../utilities/convertKelvinToFahrenheit';
 
 export interface ForecastWeatherDetailProps extends WeatherDetailProps {
   weatherIcon: string;
